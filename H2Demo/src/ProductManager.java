@@ -10,7 +10,7 @@ public class ProductManager {
     private Connection con = null;
 
     public ProductManager() throws SQLException {
-        con = DriverManager.getConnection("jdbc:h2:~/test.mv");
+        con = DriverManager.getConnection("jdbc:h2:C:\\Users\\JSGreenwell\\Google Drive\\Professorships\\Fall2019\\COP3003\\H2Template\\H2Demo\\libs\\productDB");
     }
 
    public void insertProd(String iQuery, String[] insertValues) throws SQLException {
