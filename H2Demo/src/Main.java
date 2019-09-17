@@ -12,7 +12,7 @@ class Main {
         String insertQuery = "INSERT INTO employee " +
                 "(uid, name)" +
                 " VALUES (?, ?)";
-        String[] itemp = {"2555", "The Doctor"};
+        String[] itemp = {"5854", "New Value"};
 
         pm.insertProd(insertQuery, itemp);
         pm.selectAll();
